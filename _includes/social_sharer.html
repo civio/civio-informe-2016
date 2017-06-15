@@ -1,0 +1,17 @@
+<ul class="social-sharer">
+  <li>
+    <a class="fa fa-twitter" onclick="window.open('https://twitter.com/intent/tweet?text='+encodeURIComponent('Informe 2016 de @Civio - {{ include.message }}')+'&amp;url='+encodeURIComponent('{{ site.url }}/#{{ include.path }}'),'sharer','toolbar=0,status=0,width=548,height=500');" href="javascript: void(0)" title="Comparte esta página en Twitter">
+      <span>Tweet</span>
+    </a>
+  </li>
+  <li>
+    <a class="fa fa-facebook" onclick="window.open('https://www.facebook.com/dialog/share?app_id=1516833191957352&amp;display=popup&amp;href='+encodeURIComponent('{{ site.url }}')+'&amp;redirect_uri='+encodeURIComponent('{{ site.url }}/#{{ include.path }}'),'sharer','toolbar=0,status=0,width=548,height=325');" href="javascript: void(0)" title="Comparte esta página en Facebook">
+      <span>Compartir</span>
+    </a>
+  </li>
+  <li>
+    <a class="fa fa-google-plus" onclick="window.open('https://plus.google.com/share?url='+encodeURIComponent('{{ site.url }}#{{ include.path }}'),'sharer','menubar=no,toolbar=no,resizable=yes,scrollbars=yes,width=548,height=500');" href="javascript: void(0)" title="Comparte en Google Plus">
+      <span>+1</span>
+    </a>
+  </li>
+</ul>

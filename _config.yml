@@ -1,0 +1,24 @@
+# Multiple languages
+gems:             ['jekyll-paginate', 'jekyll-multiple-languages']
+
+languages:        ['es', 'en']
+
+fill_default_content: false
+
+paginate: 5
+paginate_path: "page:num"
+
+# Permalinks
+permalink:        pretty
+#relative_permalinks: true
+
+# Site settings
+title:            Civio - Informe de Gestión 2016
+title_en:         Civio - Annual report 2016
+email:            raul@civio.es
+description:      Civio - Informe de Gestión 2016
+baseurl:          "" # the subpath of your site, e.g. /blog/
+url:              "http://localhost:4000" # "http://2016.civio.es" # "http://localhost:4000" the base hostname & protocol for your site
+
+# Build settings
+markdown:         kramdown
