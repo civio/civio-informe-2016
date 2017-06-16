@@ -37,7 +37,6 @@ GEM
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.24)
-    yui-compressor (0.12.0)
 
 PLATFORMS
   ruby
@@ -47,7 +46,6 @@ DEPENDENCIES
   jekyll-asset-pipeline
   jekyll-multiple-languages (= 2.0.3)
   jekyll-paginate
-  yui-compressor
 
 BUNDLED WITH
    1.15.1

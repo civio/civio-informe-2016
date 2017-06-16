@@ -940,3 +940,9 @@ footer {
         height: 100%;
     }
 }
+
+@media (max-width: 992px) {
+    #dvmi-map{
+        max-height: 580px;
+    }
+}
