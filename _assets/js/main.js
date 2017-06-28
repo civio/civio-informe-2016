@@ -131,25 +131,25 @@ $(window).load(function (){
 
       var data_incomes = {
         'es' : [
-          ['Apoyos institucionales y premios', 160390],
-          ['Prestación de servicios profesionales', 67324],
-          ['Donaciones de particulares', 21746],
+          ['Apoyos institucionales y premios', 179085],
+          ['Prestación de servicios profesionales', 126722],
+          ['Donaciones de particulares', 30649],
         ],
         'en' : [
-          ['Institutional support', 160390],
-          ['Professional service delivery', 67324],
-          ['Private donations', 21746],
+          ['Institutional support', 179085],
+          ['Professional service delivery', 126722],
+          ['Private donations', 30649],
         ]
       };
 
       var data_expenses = {
         'es' : [
-          ['Costes laborales', 139263],
-          ['Otros gastos', 45407],
+          ['Costes laborales', 262435],
+          ['Otros gastos', 74021],
         ],
         'en' : [
-          ['Labour costs', 139263],
-          ['Other expenses', 45407],
+          ['Labour costs', 262435],
+          ['Other expenses', 74021],
         ]
       }
 
