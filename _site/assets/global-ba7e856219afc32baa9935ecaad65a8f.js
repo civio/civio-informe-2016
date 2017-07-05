@@ -158,12 +158,12 @@ $(window).load(function (){
 
       var data_expenses = {
         'es' : [
-          ['Costes laborales', 262435],
-          ['Otros gastos', 74021],
+          ['Costes laborales', 259194],
+          ['Otros gastos', 71558],
         ],
         'en' : [
-          ['Labour costs', 262435],
-          ['Other expenses', 74021],
+          ['Labour costs', 259194],
+          ['Other expenses', 71558],
         ]
       }
 
